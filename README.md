@@ -1,76 +1,73 @@
-# Julian Zapata
+# Julián Zapata
 
-**Software Engineer | Backend Engineering · APIs · System Integration · AI Prototypes**
+**Ingeniero de Software | Backend · APIs · Integración de Sistemas · Prototipos de IA**
 
-Systems and Telecommunications Engineer with 19 years in technology and 5+ years focused on software development. I build backend services, REST APIs, integrations, and maintainable business applications using .NET, Node.js, Python, PHP, SQL, and Angular.
+Ingeniero de Sistemas y Telecomunicaciones con trayectoria en tecnología y experiencia en desarrollo de software. He trabajado en servicios backend, APIs REST, integraciones y aplicaciones empresariales con .NET, Node.js, Python, PHP, SQL y Angular.
 
-I am extending my portfolio with hands-on projects in AI-assisted support workflows, tool calling, semantic retrieval, and auditable business actions. My projects use synthetic data and are clearly documented as demonstrations rather than production systems.
+En este perfil reúno proyectos personales de práctica y demostración. Mi enfoque está en entender el problema de negocio, separar responsabilidades, validar reglas del dominio, documentar decisiones y probar los flujos antes de presentar una solución como terminada.
 
-## Focus areas
+## Áreas de trabajo
 
-- **Backend:** .NET / ASP.NET Core, Node.js, TypeScript, Python, PHP
-- **APIs and integration:** REST, service integration, validation, error handling, audit trails
-- **Frontend:** Angular, TypeScript, HTML, CSS
-- **Data:** SQL Server, PostgreSQL, MySQL, SQLite
-- **Engineering practices:** SOLID, Clean Code, layered architecture, unit testing, Git, CI/CD
-- **AI prototypes:** LLM tool calling, support automation, retrieval-augmented generation (RAG), AI-assisted development
+- **Backend:** .NET / ASP.NET Core, Node.js, TypeScript, Python y PHP.
+- **APIs e integración:** REST, validación, manejo de errores y servicios desacoplados.
+- **Frontend:** Angular y TypeScript.
+- **Datos:** SQL Server, PostgreSQL, MySQL y SQLite.
+- **Prácticas de ingeniería:** arquitectura por capas, SOLID, Clean Code, pruebas, Git y CI/CD.
+- **IA aplicada:** prototipos con LLM, uso de herramientas desde agentes y recuperación de conocimiento (RAG).
 
-## Featured projects
+## Proyectos destacados
 
-### SupportPilot — AI Support Agent
+### SupportPilot — Agente de soporte con IA
 
-A personal support-agent prototype that uses backend tools to check synthetic order data, search local support policies, record simulated compensation requests, and create mock human-handoff tickets.
+Prototipo de agente conversacional que consulta pedidos ficticios, busca políticas, registra solicitudes de compensación simuladas y genera tickets de transferencia a una persona.
 
-**Engineering topics:** tool calling, backend validation, auditability, safe simulation of business actions, unit tests, and failure handling.
+**Temas técnicos:** llamadas a herramientas, validación backend, auditoría y manejo de fallos. No ejecuta pagos reales ni se conecta a sistemas externos de soporte.
 
-[View repository](https://github.com/julianandreszapata/supportpilot-ai-agent)
+[Ver código](https://github.com/julianandreszapata/supportpilot-ai-agent)
 
 ### Support Knowledge RAG API
 
-A demonstration API for retrieving synthetic support policies with embeddings and vector similarity, returning source metadata and optionally generating an answer with an LLM.
+API de demostración para recuperar políticas de soporte mediante embeddings y similitud vectorial, devolviendo fuentes identificables y generación opcional con un LLM.
 
-**Engineering topics:** FastAPI, embeddings, vector retrieval, source-grounded responses, and retrieval-only fallback.
+**Temas técnicos:** FastAPI, embeddings, recuperación semántica y respuestas con evidencia. Usa políticas sintéticas y no representa un servicio productivo.
 
-[View repository](https://github.com/julianandreszapata/support-knowledge-rag-api)
+[Ver código](https://github.com/julianandreszapata/support-knowledge-rag-api)
 
 ### BookFlow — .NET 8 + Angular 20
 
-A library lending and inventory application organized into Domain, Application, Infrastructure, and API layers, with an Angular interface.
+Aplicación de biblioteca para administrar libros, ejemplares, préstamos y devoluciones, organizada en capas de dominio, aplicación, infraestructura y API.
 
-**Engineering topics:** business rules, dependency inversion, EF Core, REST endpoints, form validation, and layered architecture.
+[Ver código](https://github.com/julianandreszapata/bookflow-dotnet-angular)
 
-[View repository](https://github.com/julianandreszapata/bookflow-dotnet-angular)
+### BookFlow — Node.js + TypeScript
 
-### BookFlow — Node.js + TypeScript API
+Implementación del mismo dominio con Express, entidades, casos de uso, contratos de repositorio y almacenamiento en memoria para la demostración.
 
-A second implementation of the same library-lending domain, using Express, TypeScript, domain entities, use cases, repository contracts, and an in-memory adapter.
+[Ver código](https://github.com/julianandreszapata/bookflow-node-api)
 
-[View repository](https://github.com/julianandreszapata/bookflow-node-api)
+### BookFlow — PHP
 
-### BookFlow — PHP API
+API de biblioteca con capas separadas y persistencia local en JSON, pensada para demostrar reglas de negocio y separación de responsabilidades.
 
-A framework-light PHP API for the same domain, separated into Domain, Application, Infrastructure, and HTTP layers, with JSON-file persistence for local demonstration.
+[Ver código](https://github.com/julianandreszapata/bookflow-php-api)
 
-[View repository](https://github.com/julianandreszapata/bookflow-php-api)
+## Cómo trabajo
 
-## How I approach software
+- Analizo el flujo funcional y las reglas antes de implementar.
+- Mantengo las reglas de negocio separadas del transporte HTTP y de la persistencia.
+- Documento cómo ejecutar cada proyecto, las pruebas disponibles y las limitaciones pendientes.
+- Utilizo datos ficticios en las demostraciones públicas y no publico credenciales.
 
-- Understand the business flow and constraints before implementing.
-- Keep domain rules separate from HTTP and persistence concerns.
-- Prefer explicit contracts, validation, tests, and observable errors.
-- Document how to run each project and distinguish implemented behavior from future work.
-- Use synthetic data in public demonstrations and never publish credentials.
+## Formación
 
-## Education
+- Ingeniería de Sistemas y Telecomunicaciones — Universidad Católica de Pereira.
+- Tecnología en Desarrollo de Software — Universidad Católica de Pereira.
 
-- **Systems and Telecommunications Engineering** — Universidad Católica de Pereira
-- **Software Development Technology** — Universidad Católica de Pereira
-
-## Contact
+## Contacto
 
 - [LinkedIn](https://www.linkedin.com/in/julianandreszapata/)
-- Location: Pereira, Colombia
+- Pereira, Colombia
 
 ---
 
-*These are personal portfolio projects using synthetic/demo data. They are not affiliated with Rappi or connected to real customer, payment, or library systems.*
+*Los repositorios son proyectos personales de portafolio. Las capacidades descritas deben interpretarse según el estado y las limitaciones documentadas en cada README. No están afiliados a Rappi ni conectados a sistemas de clientes reales.*
